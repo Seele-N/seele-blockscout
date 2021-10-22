@@ -1,0 +1,18 @@
+<title>
+  <%= gettext("Seele | Seelen.pro Mainnet Chain | Explorer") %>
+</title>
+
+<meta name="description" content="<%= gettext "Find out the latest blocks and transactions with Seele Explorer to find the price,average block time, total transactions, total blocks, wallet addresses and more." %>">
+<link rel="canonical" href="https://seeleview.net/">
+
+<meta name="og:title" content="<%= gettext "Seele | seeleview.net Mainnet Chain | Explorer" %>">
+<meta name="og:description" content="<%= gettext "Find out the latest blocks and transactions with Seele Explorer to find the price,average block time, total transactions, total blocks, wallet addresses and more." %>">
+<meta name="og:type" content="website">
+<meta name="og:image" content="https://seeleview.net/og-image.png">
+<meta name="og:url" content="https://seeleview.net/">
+
+<meta name="twitter:card" content="website">
+<meta name="twitter:site" content="@cryptocom">
+<meta name="twitter:title" content="<%= gettext "Seele | Seelen.pro Mainnet Chain | Explorer" %>">
+<meta name="twitter:description" content="<%= gettext "Find out the latest blocks and transactions with Seele Explorer to find the price,average block time, total transactions, total blocks, wallet addresses and more." %>">
+<meta name="twitter:image" content="https://seeleview.net/og-image.png">

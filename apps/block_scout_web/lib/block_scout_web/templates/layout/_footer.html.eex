@@ -1,0 +1,62 @@
+<footer class="footer">
+  <div class="footer-body container">
+    <!-- Logo -->
+    <div class="row footer-logo-row">
+      <div class="col-md-12">
+        <%= link to: webapp_url(@conn), class: "footer-brand" do %>
+          <img class="footer-logo" src="<%= static_path(@conn, logo_footer()) %>" alt="<%= subnetwork_title() %>" />
+          <%= if logo_text() do %>
+            <span class="logo-text footer"> <%= logo_text() %> </span>
+          <% end %>
+        <% end %>
+      </div>
+    </div>
+
+    <% other_explorers = other_explorers() %>
+    <% col_size = if Enum.empty?(other_explorers), do: 3, else: 2 %>
+
+    <div class="row">
+      <div class="col-xs-12 col-lg-3">
+        <p class="footer-info-text">
+          <%= gettext("Copyright © 2021 Seelen.pro. All rights reserved.")%>
+          <a href="https://github.com/blockscout/blockscout" rel="noreferrer" class="footer-link" target="_blank"><%= gettext(" Powered by Blockscout") %></a>
+        </p>
+        <div class="footer-social-icons">
+          <a href="https://github.com/Seele-N/seele-blockscout" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Github") %>'>
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://twitter.com/n_seele" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Twitter") %>'>
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://t.me/seelenseelen2020" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Telegram") %>'>
+            <i class="fab fa-telegram-plane"></i>
+          </a>
+          <a href="https://medium.com/@seelen" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Discord") %>'>
+            <i class="fab fa-medium"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-md-4 col-lg-<%= col_size %> footer-list">
+        <h3><%= gettext("Explorer") %></h3>
+        <ul>
+          <li><a href="/" rel="noreferrer" class="footer-link"><%= gettext("Home") %></a></li>
+          <li><a href="/blocks" rel="noreferrer" class="footer-link"><%= gettext("Blocks") %></a></li>
+          <li><a href="/txs" rel="noreferrer" class="footer-link"><%= gettext("Transactions") %></a></li>
+          <li><a href="/accounts" rel="noreferrer" class="footer-link"><%= gettext("Accounts") %></a></li>
+          <li><a href="/tokens" rel="noreferrer" class="footer-link"><%= gettext("Tokens") %></a></li>
+        </ul>
+      </div>
+
+      <div class="col-xs-12 col-md-4 col-lg-<%= col_size %> footer-list">
+        <h3><%= gettext("Resources") %></h3>
+        <ul>
+          <li><a href="https://seelen.pro/" target="_blank" rel="noreferrer" class="footer-link"><%= gettext("Seele Website") %></a></li>
+          <li><a href="https://launchpad.seelen.pro/en/faq" target="_blank" rel="noreferrer" class="footer-link"><%= gettext("Documentation") %></a></li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+</footer>
