@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="./assets/seele.svg" alt="Seele Logo" width="300" />
+    <img src="./assets/seele-logo.png" alt="Seele Logo" width="300" />
 </h1>
 
 # Block Explorer
