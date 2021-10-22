@@ -16,9 +16,9 @@ Seele Testnet: https://seeleview.net
 
 This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.
 
-The Seele logo design and all related trademarks, trade names and service marks are the exclusive property of CRO Protocol Labs. All rights reserved.
+The Seele logo design and all related trademarks, trade names and service marks are the exclusive property of Seelen.pro. All rights reserved.
 
-No adaption or use of any kind of any of our trademarks, trade names, service marks or copyrights is allowed without the express written permission of CRO Protocol Labs.
+No adaption or use of any kind of any of our trademarks, trade names, service marks or copyrights is allowed without the express written permission of Seelen.pro.
 
 ## BlockScout
 
